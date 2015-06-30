@@ -1,0 +1,202 @@
+/**
+ MyPHP Framework
+
+ Standard CSS file which holds the neccessary rules to start your theme
+
+ CONTENT
+ - Resets
+ - Globals
+ - Standard Rules
+ - [Here your custom rules!]
+ - Media Queries
+*/
+
+/* RESETS
+------------------------ */
+* {
+	margin : 0;
+	border : 0;
+	-webkit-box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	-ms-box-sizing : border-box;
+	-o-box-sizing : border-box;
+	box-sizing : border-box;
+}
+
+html {
+	font-size : 17px;
+}
+
+nav,
+img,
+div,
+pre,
+code,
+form,
+aside,
+input,
+hgroup,
+header,
+footer,
+figure,
+section,
+article,
+details,
+textarea,
+figcaption,
+blockquote {
+	display : block;
+}
+
+code, pre {
+	font-family : new courier;
+}
+
+figure {
+	overflow : hidden;
+}
+
+ul, li {
+	list-style : none;
+	padding : 0;
+}
+
+a {
+	text-decoration : none;
+}
+
+a:hover {
+	text-decoration : underline;
+}
+
+img {
+	width : 100%;
+}
+
+input, textarea {
+	font-family : Arial, Verdana;
+	font-size : 1em;
+	ourline : 0;
+}
+
+pre, code {
+	font-family : monospace, 'Courier New';
+}
+
+/* GLOBALS
+------------------------*/
+.toggle-menu {
+	display : none;
+	text-align : center;
+}
+
+/* STANDARD RULES
+------------------------*/
+
+/** Navigation
+------------------------*/
+.main-nav {
+	overflow : hidden;
+	margin : 10px 0;
+}
+
+.main-nav ul li {
+	float : left;
+	text-align : center;
+}
+
+
+/** Alignment
+------------------------*/
+.left-align-bl {
+	float : left;
+}
+
+.center-align-bl {
+	display : block;
+	margin-right : auto;
+	margin-left : auto
+}
+
+.right-align-bl {
+	float: right;
+}
+
+.left-align-tx {
+	text-align : left;
+}
+
+.center-align-tx {
+	text-align : center;
+}
+
+.right-align-tx {
+	text-align : right;
+}
+
+.justi-align-tx {
+	text-align : justify;
+}
+
+/** Margination
+------------------------*/
+.top-separate {
+	margin-top: 40px;
+}
+
+.btm-separate {
+	margin-bottom: 40px;
+}
+
+.rgt-separate {
+	margin-right: 40px;
+}
+
+.lft-separate {
+	margin-left: 40px;
+}
+
+/* Lists styles
+------------------------*/
+.ulist,
+.ulist ul {
+	padding-left: 20px;
+}
+
+.ulist li,
+.ulist ul li {
+	list-style: disc;
+}
+
+
+/* MEDIA QUERIES
+------------------------*/
+@media only screen and ( max-width: 959px) {
+
+}
+
+@media only screen and ( max-width: 719px) {
+	
+}
+
+@media only screen and ( max-width: 479px) {
+
+/** Navigation
+------------------------*/
+	.main-nav {
+		width : 100%;
+	}
+	.main-nav li {
+		display : block;
+		text-align : center;
+		width : 100%;
+	}
+	
+	.toggle-menu {
+		display : block;
+	}
+	
+	.nav-container {
+		display : none;
+	}
+}
