@@ -44,7 +44,7 @@ Stores error data
     - *charset* - Website charset.
     - *url* - Website production url.
     - *lang* - Website base language.
-    - *dev_url* - I usually keep the core files under a separate folder.
+    - *dev_url* - I usually keep the core files under a separate folder, so to avoid unexpected behaviors I added a development URL which is the localhost path to the project.
 
 ```php:
 <?php
