@@ -51,7 +51,8 @@ Stores error data
     // Create configuration file
     $settings = array ( 'charset'=>'utf-8', 'url'=>'example.com', 'lang'=>'en', 'dev_url'=>'localhost:8080/mysite' );
     site_config( 'create', $settings );
-?>```
+?>
+```
 
 ```php:
 <?php
